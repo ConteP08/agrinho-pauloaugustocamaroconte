@@ -3,61 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Campo e Cidade Conectados</title>
+  <title>Rota Verde – Conexão Campo-Cidade</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Festejando a Conexão Campo-Cidade</h1>
+    <h1>🌾 Rota Verde 🌆</h1>
+    <p>Festejando a conexão entre o campo e a cidade</p>
     <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#atividades">Atividades</a>
+      <a href="#valores">Valores</a>
+      <a href="#jornada">Jornada</a>
       <a href="#galeria">Galeria</a>
       <a href="#contato">Contato</a>
     </nav>
   </header>
 
-  <main>
-    <section id="sobre">
-      <h2>Sobre o Projeto</h2>
-      <p>
-        Este site celebra a conexão entre o campo e a cidade, promovendo a valorização da produção agrícola,
-        das tradições rurais e da tecnologia como ponte entre esses dois mundos.
-      </p>
-    </section>
+  <section id="valores" class="grid-section">
+    <div>
+      <h2>🌽 Produção Sustentável</h2>
+      <p>Do campo vem o alimento, a cultura e o cuidado com a terra. Cada produtor é um elo com a cidade.</p>
+    </div>
+    <div>
+      <h2>🏙️ Vida Urbana</h2>
+      <p>A cidade consome, transforma e compartilha o que vem do campo – juntos somos mais fortes.</p>
+    </div>
+  </section>
 
-    <section id="atividades">
-      <h2>Atividades Integradas</h2>
-      <ul>
-        <li>Feiras de produtores locais na cidade</li>
-        <li>Oficinas de compostagem urbana</li>
-        <li>Turismo rural e educativo</li>
-        <li>Uso de tecnologia no campo (drones, apps, IoT)</li>
-      </ul>
-    </section>
+  <section id="jornada" class="timeline">
+    <h2>🚜 A Jornada da Conexão</h2>
+    <div class="timeline-step">
+      <span>1</span>
+      <p>Plantio consciente no campo</p>
+    </div>
+    <div class="timeline-step">
+      <span>2</span>
+      <p>Transporte e logística integrada</p>
+    </div>
+    <div class="timeline-step">
+      <span>3</span>
+      <p>Distribuição em feiras urbanas</p>
+    </div>
+    <div class="timeline-step">
+      <span>4</span>
+      <p>Educação nas escolas sobre origem dos alimentos</p>
+    </div>
+  </section>
 
-    <section id="galeria">
-      <h2>Galeria de Imagens</h2>
-      <img src="https://via.placeholder.com/300x200" alt="Feira rural na cidade" />
-      <img src="https://via.placeholder.com/300x200" alt="Estudantes em horta comunitária" />
-    </section>
+  <section id="galeria">
+    <h2>📸 Galeria da Integração</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Campo+Verde" alt="Vista do campo" />
+      <img src="https://via.placeholder.com/300x200?text=Feira+Urbana" alt="Feira na cidade" />
+      <img src="https://via.placeholder.com/300x200?text=Tecnologia+Rural" alt="Tecnologia no campo" />
+    </div>
+  </section>
 
-    <section id="contato">
-      <h2>Fale Conosco</h2>
-      <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required />
-
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-  </main>
+  <section id="contato">
+    <h2>📬 Fale Conosco</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required />
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
   <footer>
-    <p>© 2025 Agrinho – Campo e Cidade Unidos</p>
+    <p>© 2025 Rota Verde – Projeto Agrinho</p>
   </footer>
 </body>
 </html>
