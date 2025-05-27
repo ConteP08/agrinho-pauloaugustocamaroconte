@@ -1,95 +1,63 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Festejando a Conexão do Campo à Cidade</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f3f2ee;
-            color: #333;
-        }
-        header {
-            background-color: #85bb65;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #5c8a3a;
-            display: flex;
-            justify-content: center;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #4b6e2b;
-        }
-        .container {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 40px;
-        }
-        h2 {
-            color: #5c8a3a;
-        }
-        .curiosidades ul {
-            list-style: disc;
-            padding-left: 20px;
-        }
-        footer {
-            background-color: #5c8a3a;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campo e Cidade Conectados</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Festejando a Conexão do Campo à Cidade</h1>
-        <p>Descubra como o campo e a cidade se completam todos os dias</p>
-    </header><nav>
-    <a href="#linha-do-tempo">Linha do Tempo</a>
-    <a href="#curiosidades">Curiosidades</a>
-    <a href="#historias">Histórias</a>
-</nav>
+  <header>
+    <h1>Festejando a Conexão Campo-Cidade</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#atividades">Atividades</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-<div class="container">
-    <section id="linha-do-tempo">
-        <h2>Linha do Tempo</h2>
-        <p>Veja como a conexão entre o campo e a cidade evoluiu ao longo do tempo:</p>
-        <ul>
-            <li><strong>1950:</strong> Agricultura familiar era a base da economia rural.</li>
-            <li><strong>1970:</strong> Crescimento das cidades aumentou a demanda por alimentos.</li>
-            <li><strong>1990:</strong> Surgem feiras livres e produtores começam a vender diretamente para a cidade.</li>
-            <li><strong>2020:</strong> Tecnologia aproxima campo e cidade com apps e entregas diretas.</li>
-        </ul>
+  <main>
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>
+        Este site celebra a conexão entre o campo e a cidade, promovendo a valorização da produção agrícola,
+        das tradições rurais e da tecnologia como ponte entre esses dois mundos.
+      </p>
     </section>
 
-    <section class="curiosidades" id="curiosidades">
-        <h2>Você Sabia?</h2>
-        <ul>
-            <li>A maioria dos alimentos que consumimos nas cidades vem de pequenos produtores rurais.</li>
-            <li>Feiras orgânicas e cestas agroecológicas são formas de valorizar o campo na cidade.</li>
-            <li>Tratores e drones já são usados no campo para melhorar a produção.</li>
-        </ul>
+    <section id="atividades">
+      <h2>Atividades Integradas</h2>
+      <ul>
+        <li>Feiras de produtores locais na cidade</li>
+        <li>Oficinas de compostagem urbana</li>
+        <li>Turismo rural e educativo</li>
+        <li>Uso de tecnologia no campo (drones, apps, IoT)</li>
+      </ul>
     </section>
 
-    <section id="historias">
-        <h2>Histórias que Inspiram</h2>
-        <p>Conheça a Maria, uma agricultora que começou a vender sua produção em uma feira urbana e hoje colhe frutos dessa conexão. Ela conta que nunca imaginou que seus produtos seriam tão valorizados pelos moradores da cidade. Histórias como a dela mostram como essa relação pode ser positiva para todos.</p>
+    <section id="galeria">
+      <h2>Galeria de Imagens</h2>
+      <img src="https://via.placeholder.com/300x200" alt="Feira rural na cidade" />
+      <img src="https://via.placeholder.com/300x200" alt="Estudantes em horta comunitária" />
     </section>
-</div>
 
-<footer>
-    <p>Projeto Agrinho 2025 - Todos os direitos reservados.</p>
-</footer>
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
 
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Agrinho – Campo e Cidade Unidos</p>
+  </footer>
 </body>
 </html>
